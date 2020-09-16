@@ -29,19 +29,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
-   A.
+   A.To build a stateful class component you need to used constructor, super(), and render. Within that you would define state with this.state and declare how you want to handle changed and side effects.
 
 2. Describe the different phases of the component lifecycle.
-   A.
+   A.The phases of the component lifecycle are mount, update, and unmount. In the mount stage that is the initial state of the app, what you start with. In the update phase is where any changes to the app will occur. The final stage is unmount which is the end of the functionality to the app.
 
 3. Demonstrate an understanding of class component lifecycle methods.
-   A.
+   A.the react lifecycle has several methods that can be used, the first is constructor, followed by render, componentDidMount, componentDidUpdate, and componentWillUnmount. The constructor sets the initial state of the component, render will return some data to the dome so the userw can see it such as a form, componentDidMount gets invoked after the first render, componentWillUpdate lets you hadle configuration changes and prepares for the next render and lastly componentWillUnMount is rarely used it is used for any clean up before the component is removed from the DOM
 
 4. Define stateful logic.
-   A.
+   A.Stateful logic is logic that runs behind the scenes of the app. It is most often built into the app to handle changing states withing the component.
 
 5. Describe how to test a React component with React Testing Library.
-   A.
+   A.You would first import the dependencies and files you need for the tests. Then you would determine exactly what needs to be tested and what the expected results would be. After that you would write the tests, you can use describe or test to declare that a test is occurring, then you would define what elements there will be in the test and what expected outcomes are to be. The, hopefully, final step would be to run the test, if it passes you are done, if it fails you need to figure out if it is a problem with the code or the test and correct it.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
