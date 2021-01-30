@@ -10,7 +10,7 @@ import CheckoutForm from "./CheckoutForm";
 
     expect(header).toBeInTheDocument();
   });
-
+ 
 test("form shows success message on submit with form details", () => {
   render(<CheckoutForm />);
   const firstNameInput = screen.getByPlaceholderText(/first name here/i);
