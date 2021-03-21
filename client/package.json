@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/user-event": "^10.1.0",
     "axios": "^0.21.1",
-    "jest": "^26.4.2",
+    "jest": "^24.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hook-form": "^5.6.0",
