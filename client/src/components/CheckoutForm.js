@@ -86,7 +86,7 @@ const CheckoutForm = (props) => {
         </label>
         <button>Checkout</button>
       </form>
-
+ 
       {showSuccessMessage && (
         <div className="success-message" data-testid="successMessage">
           <p>
